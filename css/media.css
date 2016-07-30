@@ -1,0 +1,439 @@
+﻿@media (min-width:320px) and (max-width:767px) {
+    nav {
+        display: none;
+    }
+    .hidden_headline {
+        display:block;
+    }
+    .parrots {
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom:50px;
+        padding-right:0;
+        height:800px;
+    }
+    .parrots:after {
+            content: none;
+        }
+    .around_ticket {
+        margin-top: 0;
+        width:300px;
+    }
+    .line {
+        width:230px;
+    }
+    .around_ticket:before {
+        content:unset;
+    }
+    .around_ticket:after {
+        content:unset;
+    }
+        .information {
+        padding: 0px 20px;
+    }
+    .contacts {
+        display:none;
+    }
+    .ar_sm_float {
+        display:none;
+    }
+    .article_small {
+        max-width:unset;
+        width:90%;
+        text-align:left;
+        transform: translate(0%, 0);
+        color:white;
+            position: absolute;
+                top: -470px;
+    }
+    .carousel_cfg {
+        padding: 10px;
+        position: absolute;
+    top: -230px;
+    }
+    .article_small h3 {
+        text-align:left;
+    }
+    .line_2 {
+        display:none;
+    }
+    .information {
+        padding: 0px 10px;
+        height: 0px;
+    }
+    .p_first {
+        font-size: 40px;
+        transform: translate(0%, 0);
+    }
+    .p_second {
+        font-size: 50px;
+        transform: translate(0%, 0);
+        margin-right: 10px;
+    }
+    .p_third {
+        font-size: 88px;
+        transform: translate(0%, 0);
+    }
+    .world_text {
+        position:unset;
+        padding:0;
+    }
+    .world {
+        height: 240px;
+        padding:0;
+    }
+    .world p {
+            text-align: center;
+    }
+    .button {
+        display:none;
+    }
+    .article_big {
+        display:none;
+    }
+    .around_ticket_2 {
+        display:none;
+    }
+    .img_1 img {
+        width:100%;
+    }
+    .img_2 img {
+        width:75%;
+    }
+    .count {
+            max-height: 300px;
+            padding-bottom: 15px;
+    }
+    .over_form {
+        padding: 11px;
+    }
+    .price {
+        position:absolute;
+    }
+    #buy {
+        height: 650px;
+        background: url('../img/footer/zoo_02.png');
+        background-size:cover;
+    }
+    .count .row .col-sm-4:first-child:after {
+        content: url('../img/section-anim-count/number_611.png');
+    }
+    .count .row .col-sm-4:nth-child(2):after {
+        content: url('../img/section-anim-count/number_644.png');
+    }
+    .count .row .col-sm-4:last-child:after {
+        content: url('../img/section-anim-count/number_677.png');
+    }
+    .count .row .col-sm-4:first-child:before {
+        content:none;
+    }
+    .count .row .col-sm-4:nth-child(2):before {
+        content:none;
+    }
+    .count .row .col-sm-4:first-child:after {
+bottom: -36px;
+    top: unset;
+    right: 25px;
+    }
+    .count .row .col-sm-4:nth-child(2):after {
+bottom: -38px;
+    top: unset;
+    right: 30px;
+    }
+    .count .row .col-sm-4:last-child:after {
+    bottom: -31px;
+    top: unset;
+    right: 27px;
+    }
+    .hidden_media_mob {
+        display:none;
+    }
+    .u_can_buy h3 {
+        font-size: 28px;
+    }
+    .hidden_count_headline {
+        display:block;
+    }
+    .price {
+        width: 100%;
+        position:absolute;
+        top: 410px;
+        left: -240px;
+    }
+
+    .price_15 {
+        left: 200px;
+        background-size:200px;
+        width: 300px;
+    }
+        .price_15 p:first-child {
+            font-size: 26px;
+            margin-top: 0px;
+            margin-left: 100px;
+        }
+        .price_15 p:last-child {
+            font-size: 50px;
+    margin-top: -15px;
+    margin-left: 100px;
+        }
+    .price_25 {
+            left: 280px;
+        background-size:200px;
+        width: 300px;
+        top: 75px;
+    }
+    .price_25 p:first-child {
+        font-size: 26px;
+            margin-top: 0px;
+            margin-left: 100px;
+    }
+    .price_25 p:last-child {
+            font-size: 50px;
+    margin-top: -15px;
+    margin-left: 100px;
+        }
+    .cont_form input {
+        width:unset;
+        max-width:300px;
+    }
+    .article-border {
+        border-right:none;
+    }
+    .info_back {
+        margin-bottom: 300px;
+    }
+    .footer_contacts {
+        bottom: -250px;
+    left: 20%;
+    }
+    .map {
+        display:none;
+    }
+    #info {
+        background:green;
+    }
+    .info_back {
+        background:green;
+    }
+    .foot_articles {
+        margin-left: 0px;
+            margin-top: 150px;
+            transform: translate(0%, 0);
+    }
+    .article-border {
+        margin:0;
+        margin-top:-20px;
+    }
+    .info_back h5 {
+        font-size: 36px;
+    text-align: center;
+    }
+    .article-border {
+        border-right: none;
+        padding-right: 10px;
+    }
+    .foot_article {
+        display:none;
+    }
+    .foot_articles:first-child:before {
+        top: -130px;
+    left: 32%;
+    }
+    .foot_articles:last-child:before {
+        content:url('../img/footer/zoo_17.png');
+        top: -120px;
+        left: 32%;
+    }
+    .footer_imageS {
+        display: block;
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    /*header*/
+    nav {
+        display: none;
+    }
+
+    .parrots {
+        padding-left: 14px;
+    }
+
+        .parrots:after {
+            content: none;
+        }
+
+    .around_ticket {
+        max-width: 350px;
+    }
+
+    .line {
+        max-width: 250px;
+    }
+
+    .information {
+        padding: 0px 20px;
+    }
+
+    .article_big h2 {
+        font-size: 68px;
+    }
+
+    .ar_sm_float {
+        float: unset;
+    }
+
+    .article_small {
+        display: block;
+        max-width: unset;
+        width: 100%;
+        text-align: right;
+    }
+
+    .articles p {
+        line-height: 14px;
+    }
+
+    .carousel_cfg {
+        padding:30px;
+    }
+    /*section world*/
+    .world p:first-child, .world p:nth-child(2), .world p:last-child {
+        margin-right: unset;
+    }
+
+    .world p:first-child {
+        font-size: 55px;
+    }
+
+    .world p:nth-child(2) {
+        font-size: 45px;
+    }
+
+    .world p:last-child {
+        font-size: 65px;
+    }
+
+    .world_text {
+        bottom: 15%;
+    }
+    /*section anim_count*/
+    .count .row .col-sm-4:first-child:before {
+        z-index: 3;
+        font-weight: 900;
+    }
+
+    .count .row .col-sm-4:nth-child(2):before {
+        z-index: 3;
+        font-weight: 900;
+    }
+
+    .price {
+        width: 100%;
+        position:absolute;
+        top: 500px;
+        left: -180px;
+    }
+
+    .price_15 {
+        left: 200px;
+        background-size:200px;
+        width: 300px;
+    }
+        .price_15 p:first-child {
+            font-size: 26px;
+            margin-top: 0px;
+            margin-left: 100px;
+        }
+        .price_15 p:last-child {
+            font-size: 50px;
+    margin-top: -15px;
+    margin-left: 100px;
+        }
+    .price_25 {
+            left: 340px;
+        background-size:200px;
+        width: 300px;
+        top: 50px;
+    }
+    .price_25 p:first-child {
+        font-size: 26px;
+            margin-top: 0px;
+            margin-left: 100px;
+    }
+    .price_25 p:last-child {
+            font-size: 50px;
+    margin-top: -15px;
+    margin-left: 100px;
+        }
+    .over_form {
+        display: block;
+        margin: auto;
+        width: 410px;
+        margin-bottom: 220px;
+    }
+
+    .article-border {
+        border-right: none;
+            margin-bottom: 0;
+    }
+
+    .foot_articles {
+    margin-left: 180px;
+    width: 25%;
+    display: inline-block;
+    }
+
+    .foot_article {
+        margin: 0px 70px 70px 190px;
+    }
+
+    .footer_contacts {
+        bottom: -115px;
+        left: 10%;
+    }
+    .around_ticket_2 {
+        display:none;
+    }
+    .button {
+        right: 20%;
+    }
+    .count {
+        min-height:280px;
+    }
+    .img_1 img {
+        width:50%;
+    }
+    .img_2 img {
+        width:40%;
+    }
+    .count .row .col-sm-4:first-child:after, .count .row .col-sm-4:nth-child(2):after {
+        top:unset;
+        bottom: -75px;
+        right: 90px;
+    }
+    .count .row .col-sm-4:last-child:after {
+        top:unset;
+        bottom: -53px;
+        right: 80px;
+    }
+    .welcome h3 {
+        font-size: 36px;
+    }
+    .u_can_buy:before {
+        content:none;
+    }
+    .u_can_buy:after {
+        content:none;
+    }
+    .border_dashed {
+    width: 500px;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom: 6px dashed white;
+    }
+}
